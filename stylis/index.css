@@ -1,0 +1,117 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container {
+    background: #F8F8F8;
+    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+   
+}
+span {
+    color: #00B3A0;
+    font-size: 16px;
+    font-family: Airbnb Cereal system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.banner {
+    /* border: 1px solid rgb(18, 18, 18); */
+    padding: 100px 80px;
+    max-width: 1230px;
+}
+.content h1 {
+    font-size: 42px;
+    line-height: 52px;
+     font-family: "Averia Serif Libre", serif;
+     color: #002248;
+
+}
+.content p {
+    color: #697687;
+font-family: sans-serif;
+}
+.card {
+    /* padding: 0px 710px; */
+    display: flex;
+    padding-left: 1048px;
+    position: relative;
+
+}
+.vector {
+position: absolute;
+left: 1065px;
+top: 18px;
+} 
+.img img {
+    width: 369px;
+
+}
+.img {
+margin-top: 50px;
+display: flex;
+gap: 20px;
+transition: all 1s;
+
+}
+.img1 {
+    transition: all 1s;
+}
+.img1:hover {
+    transform: scale(2s);
+}
+.group {
+    position: relative;
+}
+.why {
+    position: absolute;
+    top: 0px;
+    left: 406px;
+}
+.text h1 {
+    color: #002248;
+    /* font-family: ; */
+    font-size: 42px;
+
+}
+.text p {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #697687;
+    
+}
+button {
+    background: #3685FB;
+    padding: 17px 35px;
+    border:none;
+    border-radius: 7px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #FFFFFF;
+
+
+}
+.text {
+    /* border: 1px solid red; */
+    width: 40%;
+    position: absolute;
+    top: 190px;
+    left: 810px;
+    z-index: 1;
+}
+.txt {
+    position: absolute;
+    top: 600px;
+    left: 630px;
+    z-index: 1;
+
+}
+.txt2 {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 465px;
+    left: 1100px;
+    z-index: 1;
+}
